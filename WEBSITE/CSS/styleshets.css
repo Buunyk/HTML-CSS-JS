@@ -1,0 +1,91 @@
+body{
+    background: cadetblue;
+}
+.Menu-side-bar{
+    background-color: aliceblue;
+    list-style-type:none;
+    width: 100%;
+    font-family: 'Lato', sans-serif;;
+    font-weight: 300;
+
+}
+.Menu-side-bar ul{
+    padding: 1%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px
+}
+.Menu-side-bar li{
+    padding: 1%;
+    margin: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px
+}
+.Menu-side-bar a{
+    text-decoration: none;
+    color: black;
+}
+.Menu-side-bar li:hover{
+    color: white;
+    background-color:green ;
+}
+.active{
+   color: white;
+    background-color:green ;
+}
+#ParentDiv{
+width: 100%;
+text-align: center;
+}
+#IndexName{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    background-color: aliceblue;
+}
+#IndexMenu{
+    width: 100%;
+    display: inline-block;
+}
+#indexText{
+}
+.drop-down-menu{
+    display: none;
+    width: 12%;
+
+}
+.Menu-side-bar li:hover .drop-down-menu{
+    display: block;
+    position: absolute;
+    background-color: aliceblue;
+    margin-top: 1%;
+    margin-left: -2.2%;;
+}
+.Menu-side-bar li:hover .drop-down-menu ul{
+    display:block;
+    margin: 1%
+}
+.Menu-side-bar li:hover .drop-down-menu ul li{
+    padding: 10px;
+    width: 150px;
+    text-align: left;
+}
+#indexFirstWords{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.carouselSlide{
+    width: 46%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.carouselImage{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
